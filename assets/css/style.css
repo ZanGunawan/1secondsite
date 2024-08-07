@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+:root {
+  --fontPrimary: "Space Grotesk", sans-serif;
+  --fontSecondary: "Kanit", sans-serif;
+  --fontThird: "Bebas Neue", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--fontPrimary);
+}
+
+header .container .text-wrapper {
+  margin-inline: auto;
+  max-width: 990px;
+  text-align: center;
+}
+header .container .text-wrapper h6 {
+  font-size: 1.2rem;
+}
+header .container .text-wrapper h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+header .container .text-wrapper p {
+  font-size: 1.3rem;
+}
+
+#about .container .text-wrapper {
+  margin-inline: auto;
+  max-width: 772px;
+}
+#about .container .text-wrapper p {
+  font-size: 1.3rem;
+}
+
+#testimoni .container .box-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 2fr;
+}
+#testimoni .container .box-wrapper .box-container {
+  border: 1px solid #000;
+  padding: 30px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,9 @@
 <template>
-  <Tutorial/>
+  <main>
+    <HeaderSection />
+    <AboutSection />
+    <TestimoniSection />
+  </main>
 </template>
 
 <script>
