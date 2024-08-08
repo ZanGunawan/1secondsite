@@ -6,8 +6,17 @@
   --fontPrimary: "Space Grotesk", sans-serif;
   --fontSecondary: "Kanit", sans-serif;
   --fontThird: "Bebas Neue", sans-serif;
+  --fs-heading: 2.5rem;
 }
 
+@media (min-width: 577px) {
+  :root {
+    --fs-heading: 4rem;
+    --fs-600: 2rem;
+    --fs-500: 1.3rem;
+    --fs-400: 1rem;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -23,30 +32,71 @@ header .container .text-wrapper {
   text-align: center;
 }
 header .container .text-wrapper h6 {
-  font-size: 1.2rem;
+  font-size: var(--fs-500);
 }
 header .container .text-wrapper h1 {
-  font-size: 4rem;
+  font-size: var(--fs-heading);
   font-weight: 600;
 }
 header .container .text-wrapper p {
-  font-size: 1.3rem;
+  font-size: var(--fs-500);
 }
 
 #about .container .text-wrapper {
   margin-inline: auto;
   max-width: 772px;
 }
+#about .container .text-wrapper h2 {
+  font-size: var(--fs-600);
+}
 #about .container .text-wrapper p {
-  font-size: 1.3rem;
+  font-size: var(--fs-500);
+}
+#about .container .box-wrapper p {
+  font-size: var(--fs-400);
 }
 
-#testimoni .container .box-wrapper {
+#testimoni .container .text-wrapper {
+  text-align: center;
+}
+#testimoni .container .text-wrapper h5 {
+  font-size: var(--fs-600);
+}
+#testimoni .container .text-wrapper h6 {
+  font-size: var(--fs-500);
+}
+#testimoni .container .text-wrapper p {
+  font-size: var(--fs-400);
+}
+
+#benefit .container .text-wrapper h2 {
+  font-size: var(--fs-600);
+}
+#benefit .container .text-wrapper h6 {
+  font-size: var(--fs-500);
+}
+#benefit .container .box-wrapper {
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr 2fr;
 }
-#testimoni .container .box-wrapper .box-container {
+#benefit .container .box-wrapper .box-container {
   border: 1px solid #000;
   padding: 30px;
+}
+#benefit .container .box-wrapper .box-container h6 {
+  font-size: var(--fs-400);
+}
+#benefit .container .box-wrapper .box-container p {
+  font-size: var(--fs-400);
+}
+
+#price .container .text-wrapper p {
+  font-size: var(--fs-400);
+}
+#price .container .text-wrapper h5 {
+  font-size: var(--fs-500);
+}
+#price .container .text-wrapper h6 {
+  font-size: var(--fs-400);
 }/*# sourceMappingURL=style.css.map */

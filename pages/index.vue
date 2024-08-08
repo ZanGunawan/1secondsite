@@ -3,6 +3,8 @@
     <HeaderSection />
     <AboutSection />
     <TestimoniSection />
+    <BenefitSection />
+    <PriceSection />
   </main>
 </template>
 
