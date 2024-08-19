@@ -36,7 +36,9 @@
         <div class="box-container">
           <h6>Boutique Design
           </h6>
-          <p>Website speed directly affect SEO. Also improves conversion rate.</p>
+          <p>One of a kind design.
+            Catered to your special needs.
+          </p>
         </div>
       </div>
     </div>

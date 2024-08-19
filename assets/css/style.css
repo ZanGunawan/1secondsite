@@ -73,7 +73,7 @@ header .container .text-wrapper p {
   font-size: var(--fs-600);
 }
 #benefit .container .text-wrapper h6 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-400);
 }
 #benefit .container .box-wrapper {
   display: grid;
@@ -91,6 +91,9 @@ header .container .text-wrapper p {
   font-size: var(--fs-400);
 }
 
+#price .container .text-wrapper h2 {
+  font-size: var(--fs-600);
+}
 #price .container .text-wrapper p {
   font-size: var(--fs-400);
 }
@@ -98,5 +101,9 @@ header .container .text-wrapper p {
   font-size: var(--fs-500);
 }
 #price .container .text-wrapper h6 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
+}
+#price .container .price-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }/*# sourceMappingURL=style.css.map */

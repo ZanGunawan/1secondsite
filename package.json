@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "bootstrap": "^5.2.3",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
-    "bootstrap": "^5.2.3"
+    "vue-template-compiler": "^2.7.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^3.71.0"
+  }
 }

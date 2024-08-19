@@ -1,7 +1,10 @@
 <template>
-  <section id="price">
+  <section id="price" class="py-5">
     <div class="container">
       <div class="text-wrapper">
+        <h2>Exploit this system now! <br>
+          Before it gets expensive.
+        </h2>
         <p>Cloudflare is aggressively trying to win the marketshare.
           That's why you can get 1 second load speed - dirt cheap.
         </p>
@@ -9,7 +12,31 @@
         <p>Take advantage of it, with us.. <br>
           Before cloudflare succeeded..
         </p>
-        <h6>Or, gives up. </h6>
+        <h6>Or, gives up. ❌</h6>
+      </div>
+      <div class="price-wrapper">
+        <div class="list-wrapper">
+          <h5><span>$333</span>/project</h5>
+          <p>Pay only once - No monthly fees</p>
+          <hr>
+          <p>What's Include ?</p>
+          <ul>
+            <li>Custom Code Website</li>
+            <li>1.5 second speed guaranteed</li>
+            <li>No monthly fee</li>
+            <li>No redesign</li>
+          </ul>
+        </div>
+        <div class="list-wrapper">
+          <h5><span>$629</span>/project</h5>
+          <p>Pay only once - No monthly fees</p>
+          <hr>
+          <p>What's Include ?</p>
+          <ul>
+            <li>All above</li>
+            <li>Custom boutique design</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

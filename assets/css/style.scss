@@ -36,13 +36,16 @@ header {
       margin-inline: auto;
       max-width: 990px;
       text-align: center;
+
       h6 {
         font-size: var(--fs-500);
       }
+
       h1 {
         font-size: var(--fs-heading);
         font-weight: 600;
       }
+
       p {
         font-size: var(--fs-500);
       }
@@ -55,13 +58,16 @@ header {
     .text-wrapper {
       margin-inline: auto;
       max-width: 772px;
+
       h2 {
         font-size: var(--fs-600);
       }
+
       p {
         font-size: var(--fs-500);
       }
     }
+
     .box-wrapper {
       p {
         font-size: var(--fs-400);
@@ -74,12 +80,15 @@ header {
   .container {
     .text-wrapper {
       text-align: center;
+
       h5 {
         font-size: var(--fs-600);
       }
+
       h6 {
         font-size: var(--fs-500);
       }
+
       p {
         font-size: var(--fs-400);
       }
@@ -93,20 +102,25 @@ header {
       h2 {
         font-size: var(--fs-600);
       }
+
       h6 {
-        font-size: var(--fs-500);
+        font-size: var(--fs-400);
       }
     }
+
     .box-wrapper {
       display: grid;
       gap: 20px;
       grid-template-columns: 2fr 2fr;
+
       .box-container {
         border: 1px solid #000;
         padding: 30px;
+
         h6 {
           font-size: var(--fs-400);
         }
+
         p {
           font-size: var(--fs-400);
         }
@@ -118,15 +132,26 @@ header {
 #price {
   .container {
     .text-wrapper {
+      h2 {
+        font-size: var(--fs-600);
+      }
+
       p {
         font-size: var(--fs-400);
       }
+
       h5 {
         font-size: var(--fs-500);
       }
+
       h6 {
-        font-size: var(--fs-400);
+        font-size: var(--fs-500);
       }
+    }
+
+    .price-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
     }
   }
 }

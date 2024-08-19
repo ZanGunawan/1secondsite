@@ -5,6 +5,7 @@
     <TestimoniSection />
     <BenefitSection />
     <PriceSection />
+    <QuestionSection />
   </main>
 </template>
 
