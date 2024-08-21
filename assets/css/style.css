@@ -7,6 +7,9 @@
   --fontSecondary: "Kanit", sans-serif;
   --fontThird: "Bebas Neue", sans-serif;
   --fs-heading: 2.5rem;
+  --green: #b9ff66;
+  --dark: #191a23;
+  --softgrey: #f3f3f3;
 }
 
 @media (min-width: 577px) {
@@ -24,6 +27,7 @@
 
 body {
   font-family: var(--fontPrimary);
+  cursor: url(~/assets/img/cursor2.png), auto;
 }
 
 header .container .text-wrapper {
@@ -71,9 +75,20 @@ header .container .text-wrapper p {
 
 #benefit .container .text-wrapper h2 {
   font-size: var(--fs-600);
+  text-align: center;
+}
+#benefit .container .text-wrapper h5 {
+  font-size: var(--fs-400);
+  text-align: center;
+}
+#benefit .container .text-wrapper h5 span {
+  background-color: var(--green);
+  padding: 2px 5px;
+  border-radius: 5px;
 }
 #benefit .container .text-wrapper h6 {
   font-size: var(--fs-400);
+  text-align: center;
 }
 #benefit .container .box-wrapper {
   display: grid;
@@ -81,18 +96,43 @@ header .container .text-wrapper p {
   grid-template-columns: 2fr 2fr;
 }
 #benefit .container .box-wrapper .box-container {
-  border: 1px solid #000;
-  padding: 30px;
+  border-radius: 45px;
+  border: 1px solid var(--dark);
+  padding: 40px 40px 25px 40px;
+  box-shadow: 0 5px var(--dark);
 }
 #benefit .container .box-wrapper .box-container h6 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
+  padding: 3px 3px;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 #benefit .container .box-wrapper .box-container p {
   font-size: var(--fs-400);
 }
 
-#price .container .text-wrapper h2 {
+#price .container h2 {
   font-size: var(--fs-600);
+  text-align: center;
+}
+#price .container h2 span {
+  background-color: var(--green);
+  padding: 2px 1px 3px;
+  border-radius: 5px;
+}
+#price .container .text-wrapper {
+  margin-block: 40px;
+  padding: 50px;
+  background-color: var(--softgrey);
+  border-radius: 45px;
+  position: relative;
+}
+#price .container .text-wrapper img {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
 }
 #price .container .text-wrapper p {
   font-size: var(--fs-400);
@@ -106,4 +146,76 @@ header .container .text-wrapper p {
 #price .container .price-wrapper {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  color: var(--softgrey);
+}
+#price .container .price-wrapper .list-wrapper {
+  border-radius: 45px;
+  padding: 50px 50px 70px;
+  background-color: var(--dark);
+}
+#price .container .price-wrapper .list-wrapper h1 {
+  font-size: var(--fs-400);
+}
+#price .container .price-wrapper .list-wrapper h1 span {
+  font-size: var(--fs-600);
+  color: var(--green);
+}
+#price .container .price-wrapper .list-wrapper h5 {
+  font-size: var(--fs-400);
+}
+#price .container .price-wrapper .list-wrapper p {
+  font-size: var(--fs-400);
+}
+#price .container .price-wrapper .list-wrapper ul {
+  margin-bottom: 50px;
+}
+#price .container .price-wrapper .list-wrapper ul li {
+  margin-bottom: 5px;
+}
+#price .container .price-wrapper .list-wrapper .ctwa a {
+  border-radius: 14px;
+  margin-block: 100px;
+  padding: 20px 35px;
+  background-color: var(--green);
+  color: var(--dark);
+  text-decoration: none;
+}
+
+#question .container .text-wrapper h1 {
+  text-align: center;
+  font-size: var(--fs-600);
+}
+#question .container .text-wrapper h1 span {
+  background-color: var(--green);
+  padding: 2px 1px 3px;
+  border-radius: 5px;
+}
+#question .container .question-wrapper .list-question {
+  border: 1px solid var(--dark);
+  padding: 35px 50px;
+  margin-bottom: 25px;
+  border-radius: 45px;
+  box-shadow: 0 5px var(--dark);
+  background-color: var(--softgrey);
+}
+#question .container .question-wrapper .list-question h1 {
+  font-size: var(--fs-600);
+}
+#question .container .question-wrapper .list-question h5 {
+  font-size: var(--fs-500);
+}
+#question .container .question-wrapper .list-question a {
+  font-size: var(--fs-500);
+  border-radius: 30px;
+  border: 1px solid var(--dark);
+  text-decoration: none;
+  background-color: var(--softgrey);
+}
+#question .container .question-wrapper .list-question a i {
+  font-weight: 700;
+  color: var(--dark);
+}
+#question .container .question-wrapper .list-question .answer p {
+  font-size: var(--fs-400);
 }/*# sourceMappingURL=style.css.map */
