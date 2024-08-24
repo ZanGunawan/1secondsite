@@ -84,6 +84,11 @@ header .container .ctwa a:hover {
   text-align: center;
   gap: 20px;
 }
+@media (max-width: 768px) {
+  #about .container .box-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 #about .container .box-wrapper .list-wrapper {
   border: 1px solid var(--dark);
   border-radius: 25px;
@@ -136,6 +141,11 @@ header .container .ctwa a:hover {
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr 2fr;
+}
+@media (max-width: 768px) {
+  #benefit .container .box-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 #benefit .container .box-wrapper .box-container {
   border-radius: 45px;
@@ -190,6 +200,11 @@ header .container .ctwa a:hover {
   grid-template-columns: 2fr 2fr;
   gap: 20px;
   color: var(--softgrey);
+}
+@media (max-width: 768px) {
+  #price .container .price-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 #price .container .price-wrapper .list-wrapper {
   border-radius: 45px;

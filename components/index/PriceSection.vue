@@ -5,7 +5,7 @@
         Before it gets <span>expensive.</span>
       </h2>
       <div class="text-wrapper">
-        <img src="~/assets/img/Illustration.png" alt="">
+        <img class="d-none d-md-block" src="~/assets/img/Illustration.png" alt="">
         <p>Cloudflare is aggressively trying to win the marketshare.
           That's why you can get <br> 1 second load speed - dirt cheap.
         </p>

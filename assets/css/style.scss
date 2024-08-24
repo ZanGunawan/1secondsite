@@ -107,6 +107,10 @@ header {
       text-align: center;
       gap: 20px;
 
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+
       .list-wrapper {
         border: 1px solid var(--dark);
         border-radius: 25px;
@@ -181,6 +185,10 @@ header {
       gap: 20px;
       grid-template-columns: 2fr 2fr;
 
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+
       .box-container {
         border-radius: 45px;
         border: 1px solid var(--dark);
@@ -247,6 +255,10 @@ header {
       grid-template-columns: 2fr 2fr;
       gap: 20px;
       color: var(--softgrey);
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
 
       .list-wrapper {
         border-radius: 45px;
