@@ -1,6 +1,6 @@
 <template>
   <main>
-    <!-- <HeaderSection /> -->
+    <HeaderSection />
     <AboutSection />
     <TestimoniSection />
     <BenefitSection />

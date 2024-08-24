@@ -10,16 +10,21 @@
         </p>
       </div>
       <div class="box-wrapper">
-        <div class="row text-center">
-          <div class="col-12 col-md-6 col-lg-4 px-5">
-            <p>Load speed under 1.5 second – no matter the design.</p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 px-5">
-            <p>Custom web design unique to your company.</p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 px-5">
-            <p>We’ll revise, until you’re 100% satisfied.</p>
-          </div>
+        <div class="list-wrapper px-5">
+          <span class="material-symbols-outlined"> cloud_download </span>
+          <p>Load speed under 1.5 second – no matter the design.</p>
+        </div>
+        <div class="list-wrapper px-5">
+          <span class="material-symbols-outlined">
+            wysiwyg
+          </span>
+          <p>Custom web design unique to your company.</p>
+        </div>
+        <div class="list-wrapper px-5">
+          <span class="material-symbols-outlined">
+            waving_hand
+          </span>
+          <p>We’ll revise, until you’re 100% satisfied.</p>
         </div>
       </div>
     </div>

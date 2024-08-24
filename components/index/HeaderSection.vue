@@ -11,6 +11,11 @@
           </strong>
         </p>
       </div>
+      <div class="ctwa">
+        <a href="#about">
+          Learn More
+        </a>
+      </div>
     </div>
   </header>
 </template>
