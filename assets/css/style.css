@@ -6,13 +6,26 @@
   --fontPrimary: "Space Grotesk", sans-serif;
   --fontSecondary: "Kanit", sans-serif;
   --fontThird: "Bebas Neue", sans-serif;
-  --fs-heading: 2.5rem;
+  --fs-heading: 2rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9rem;
+  --padding-block: 80px;
   --green: #b9ff66;
   --dark: #191a23;
   --softgrey: #f3f3f3;
 }
 
 @media (min-width: 577px) {
+  :root {
+    --padding-block: 100px;
+    --fs-heading: 4rem;
+    --fs-600: 2rem;
+    --fs-500: 1.3rem;
+    --fs-400: 1rem;
+  }
+}
+@media (min-width: 769px) {
   :root {
     --fs-heading: 4rem;
     --fs-600: 2rem;
@@ -30,7 +43,7 @@ body {
 }
 
 .py-5 {
-  padding-block: 100px !important;
+  padding-block: var(--padding-block) !important;
 }
 
 header .container .text-wrapper {
@@ -127,6 +140,7 @@ header .container .ctwa a:hover {
 #benefit .container .text-wrapper h5 {
   font-size: var(--fs-400);
   text-align: center;
+  line-height: 24px;
 }
 #benefit .container .text-wrapper h5 span {
   background-color: var(--green);
@@ -148,10 +162,16 @@ header .container .ctwa a:hover {
   }
 }
 #benefit .container .box-wrapper .box-container {
-  border-radius: 45px;
   border: 1px solid var(--dark);
-  padding: 40px 40px 25px 40px;
+  border-radius: 45px;
+  padding: 40px;
   box-shadow: 0 5px var(--dark);
+}
+@media (max-width: 768px) {
+  #benefit .container .box-wrapper .box-container {
+    border-radius: 30px;
+    padding: 30px;
+  }
 }
 #benefit .container .box-wrapper .box-container h6 {
   font-size: var(--fs-500);
@@ -163,6 +183,7 @@ header .container .ctwa a:hover {
 }
 #benefit .container .box-wrapper .box-container p {
   font-size: var(--fs-400);
+  margin-bottom: 0;
 }
 
 #price .container h2 {
@@ -181,6 +202,12 @@ header .container .ctwa a:hover {
   border-radius: 45px;
   position: relative;
 }
+@media (max-width: 768px) {
+  #price .container .text-wrapper {
+    padding: 30px;
+    border-radius: 30px;
+  }
+}
 #price .container .text-wrapper img {
   position: absolute;
   right: 50px;
@@ -188,6 +215,12 @@ header .container .ctwa a:hover {
 }
 #price .container .text-wrapper p {
   font-size: var(--fs-400);
+  width: 50%;
+}
+@media (max-width: 768px) {
+  #price .container .text-wrapper p {
+    width: 100%;
+  }
 }
 #price .container .text-wrapper h5 {
   font-size: var(--fs-500);
@@ -211,11 +244,21 @@ header .container .ctwa a:hover {
   padding: 50px 50px 70px;
   background-color: var(--dark);
 }
+@media (max-width: 768px) {
+  #price .container .price-wrapper .list-wrapper {
+    padding: 30px 30px 50px;
+    border-radius: 30px;
+  }
+}
 #price .container .price-wrapper .list-wrapper h1 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
 }
 #price .container .price-wrapper .list-wrapper h1 span {
   font-size: var(--fs-600);
+  color: var(--green);
+}
+#price .container .price-wrapper .list-wrapper h1 strong {
+  font-size: var(--fs-400);
   color: var(--green);
 }
 #price .container .price-wrapper .list-wrapper h5 {
@@ -228,15 +271,22 @@ header .container .ctwa a:hover {
   margin-bottom: 50px;
 }
 #price .container .price-wrapper .list-wrapper ul li {
+  font-size: var(--fs-400);
   margin-bottom: 5px;
 }
 #price .container .price-wrapper .list-wrapper .ctwa a {
+  font-size: var(--fs-400);
   border-radius: 14px;
   margin-block: 100px;
   padding: 20px 35px;
   background-color: var(--green);
   color: var(--dark);
   text-decoration: none;
+}
+@media (max-width: 576px) {
+  #price .container .price-wrapper .list-wrapper .ctwa a {
+    padding: 15px 25px;
+  }
 }
 
 #question .container .text-wrapper h1 {
@@ -255,6 +305,12 @@ header .container .ctwa a:hover {
   border-radius: 45px;
   box-shadow: 0 5px var(--dark);
   background-color: var(--softgrey);
+}
+@media (max-width: 768px) {
+  #question .container .question-wrapper .list-question {
+    border-radius: 30px;
+    padding: 20px 30px;
+  }
 }
 #question .container .question-wrapper .list-question h1 {
   font-size: var(--fs-600);
