@@ -28,7 +28,7 @@
             <li>No redesign</li>
           </ul>
           <div class="ctwa">
-            <a href="javascript:;">
+            <a :href="WhatsAppLink" target="_blank">
               Book A Call
             </a>
           </div>
@@ -45,7 +45,7 @@
             </ul>
           </div>
           <div class="ctwa">
-            <a href="javascript:;">
+            <a :href="WhatsAppLink" target="_blank">
               Book A Call
             </a>
           </div>
@@ -57,7 +57,17 @@
 
 <script>
 export default {
-
+  data() {
+    return {
+      phoneNumber: '6285172111145',
+      message: "I'd like to inquire about the opportunity to optimize my site"
+    }
+  },
+  computed: {
+    WhatsAppLink() {
+      return `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`
+    }
+  },
 }
 </script>
 
