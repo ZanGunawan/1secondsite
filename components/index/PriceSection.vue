@@ -7,7 +7,7 @@
       <div class="text-wrapper">
         <img class="d-none d-md-block" src="~/assets/img/Illustration.png" alt="">
         <p>Cloudflare is aggressively trying to win the marketshare.
-          That's why you can get <br> 1 second load speed - dirt cheap.
+          That's why you can get 1 second load speed - dirt cheap.
         </p>
         <h5>But it needs specific type of website to use it. </h5>
         <p>Take advantage of it, with us.. <br>
@@ -17,7 +17,8 @@
       </div>
       <div class="price-wrapper">
         <div class="list-wrapper">
-          <h1><span>$333</span> /project</h1>
+          <p class="mb-1">Starts at</p>
+          <h1><span>IDR 5.000.000</span> - USD 333</h1>
           <h5>Pay only once - No monthly fees</h5>
           <hr>
           <p>What's Include ?</p>
@@ -35,7 +36,8 @@
         </div>
         <div class="list-wrapper d-flex flex-column justify-content-between">
           <div>
-            <h1><span>$629</span> /project</h1>
+            <p class="mb-1">Starts at</p>
+            <h1><span>IDR 10.000.000</span> - USD 629</h1>
             <h5>Pay only once - No monthly fees</h5>
             <hr>
             <p>What's Include ?</p>
